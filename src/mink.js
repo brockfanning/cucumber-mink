@@ -17,6 +17,7 @@ const DEFAULT_CONFIG = {
   headless: process.env.RUN_HEADLESS !== '0',
   devtools: process.env.RUN_DEVTOOLS === '1',
   selectors: {},
+  args: ['--no-sandbox'],
 };
 
 function gherkin(cucumber) {
