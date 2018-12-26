@@ -40,6 +40,7 @@ Mink.prototype.setup = async function () {
   this.browser = await puppeteer.launch({
     headless: this.config.headless && !this.config.devtools,
     devtools: this.config.devtools,
+    args: ['--no-sandbox', '--disable-gpu'],
   });
   this.page = await this.browser.newPage();
   return this.page.setViewport(this.config.viewport);
