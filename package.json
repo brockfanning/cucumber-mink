@@ -38,7 +38,7 @@
     "chai": "4.2.0",
     "debug": "4.1.1",
     "lodash.defaultsdeep": "4.6.1",
-    "puppeteer": "latest"
+    "puppeteer": "19.4.1"
   },
   "peerDependencies": {
     "cucumber": "^6.0.0"
